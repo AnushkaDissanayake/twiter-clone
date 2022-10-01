@@ -1,0 +1,44 @@
+
+/* header */
+@media all and (min-width: 615px) and (max-width: 1279px){
+    header{
+        flex-basis: 88px;
+    }
+    #header-wrapper{
+        width:88px;
+        background-color: beige;
+    }
+}
+@media all and (min-width: 500px) and (max-width: 614px){
+    header{
+        flex-basis: 68px;
+    }
+    #header-wrapper{
+        width: 68px;
+    }
+} 
+
+@media all and (min-width: 0px) and (max-width: 499px){
+    header{
+        display: none;
+    }
+}
+
+/* main */
+@media all and (min-width: 1003px) and (max-width: 1092px){
+    main{
+        flex-basis: 920px;
+    }
+    #main-wrapper{
+        width:920px
+    }
+}
+
+@media all and (max-width: 1002px){
+    main{
+        flex-basis: 600px;
+    }
+    #main-wrapper{
+        width:600px
+    }
+}
