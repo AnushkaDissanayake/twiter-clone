@@ -3,15 +3,16 @@
 @media all and (min-width: 615px) and (max-width: 1279px){
     header{
         flex-basis: 88px;
+
     }
     #header-wrapper{
         width:88px;
-        background-color: beige;
     }
 }
 @media all and (min-width: 500px) and (max-width: 614px){
     header{
         flex-basis: 68px;
+        
     }
     #header-wrapper{
         width: 68px;
@@ -22,7 +23,38 @@
     header{
         display: none;
     }
+    #bottom-navigation{
+        visibility: visible;
+        height: 52.5px;
+    }
 }
+
+@media all and (min-width: 0px) and (max-width: 1279px){
+    .hidden{
+        display: none;
+    }
+    .main-nav>a:hover span{
+        background-color: rgba(0, 0, 0, 0);
+    }
+    #btn-account>a>div:nth-child(2),#btn-account>a>div:last-child{
+        display: none;
+    }
+    #btn-account>a{
+        display:block;
+        border-radius: 100%;
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        
+    }
+    #btn-account{
+        padding:12px;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
 
 /* main */
 @media all and (min-width: 1003px) and (max-width: 1092px){
@@ -34,11 +66,24 @@
     }
 }
 
-@media all and (max-width: 1002px){
+@media all and (min-width: 688px) and (max-width: 1002px){
     main{
         flex-basis: 600px;
+        flex-grow: 1;
     }
     #main-wrapper{
         width:600px
+    }
+    header{
+        max-width: 192.672px;
+
+    }
+}
+@media all and (min-width: 0px) and (max-width: 687px){
+    main{
+        flex-basis: 100%;
+    }
+    #main-wrapper{
+        width: 100%;
     }
 }
