@@ -34,7 +34,8 @@
         display: none;
     }
     .main-nav>a:hover span{
-        background-color: rgba(0, 0, 0, 0);
+        width: 50.25px;
+        height: 50.25px;
     }
     #btn-account>a>div:nth-child(2),#btn-account>a>div:last-child{
         display: none;
@@ -52,7 +53,16 @@
         display: flex;
         justify-content: center;
     }
+    #btn-tweet-small{
+        display: block;
+    }
 
+
+}
+@media all and (min-width: 0px) and (max-width: 1002px){
+    #main-wrapper>.col:nth-child(2){
+        display: none;
+    }
 }
 
 
@@ -64,6 +74,17 @@
     #main-wrapper{
         width:920px
     }
+    #main-wrapper>.col:nth-child(2){
+        width: 288px;
+    }
+    #search-bar>form{
+        width: 288px;
+    }
+    #search-bar>form>div>div{
+        width: 288px;
+    }
+
+
 }
 
 @media all and (min-width: 688px) and (max-width: 1002px){
