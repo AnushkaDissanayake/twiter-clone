@@ -7,15 +7,15 @@ To visit twitter-clone [click here.](https://anushkadissanayake.github.io/twitte
 
 ## Screenshots
 
-![App Screenshot](screenshots/Screenshot from 2022-10-17 23-57-15.png)
+![App Screenshot](screenshots/ss1.png)
 
-![App Screenshot](screenshots/Screenshot from 2022-10-17 23-57-26.png)
+![App Screenshot](screenshots/ss2.png)
 
-![App Screenshot](screenshots/Screenshot from 2022-10-17 23-58-34.png)
+![App Screenshot](screenshots/ss3.png)
 
-![App Screenshot](screenshots/Screenshot from 2022-10-17 23-59-10.png)
+![App Screenshot](screenshots/ss4.png)
 
-![App Screenshot](screenshots/Screenshot from 2022-10-17 23-59-10.png)
+![App Screenshot](screenshots/ss5.png)
 
 
 ## Built With
